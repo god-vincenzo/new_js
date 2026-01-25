@@ -18,7 +18,7 @@ const bigNumber = 223456789322323n
 // Reference (Non primitive)
 
 //Array, Objects , Functions
-
+/*
 const heros = ["shatiman", "nagraj", "joro"];
 
 let obj= {
@@ -34,3 +34,34 @@ const myfunc =function() {
 console.log(typeof bigNumber);
 console.log(typeof temp);
 console.log(typeof myfunc);
+
+
+*/
+// *************************
+
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYt = "godvin"
+
+
+let anothername = myYt;
+anothername ="phonk_vin";
+console.log(anothername);
+console.log(myYt);
+
+
+
+let user1 = {
+    email: "user@google.com",
+    upi : "user@ybl"
+}
+
+let user2 = user1
+
+
+user2.email = "user@sam,com"
+
+console.log(user1.email);
+console.log(user2.email);
+// changes in heap are changes in original val
